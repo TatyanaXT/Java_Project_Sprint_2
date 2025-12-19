@@ -10,7 +10,7 @@ public class Meat extends Food {
     }
 
     @Override
-    public int getDiscount(){
+    public double getDiscount(){
         return Discount.WITHOUT_DISCOUNT;
     }
 }

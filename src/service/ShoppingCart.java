@@ -28,7 +28,7 @@ public class ShoppingCart {
         for (Food f: foodCart) {
             sumValueDiscount += (
                     f.getTotalPrice()
-                    * (1 - ((double) f.getDiscount() / 100))
+                    * (1 - (f.getDiscount() / 100))
             );
         }
         return sumValueDiscount;
